@@ -24,9 +24,9 @@
   --body-font-size--print: 0.9375em; /* 15px */
   --body-line-height: 1.15;
   --body-font-color: var(--color-jet-70);
-  --body-font-family: "Roboto", sans-serif;
+  --body-font-family: 'IBM Plex Sans', 'Helvetica Neue', arial, sans-serif;
   --body-font-weight-bold: 500;
-  --monospace-font-family: "Roboto Mono", monospace;
+  --monospace-font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', courier, monospace;
   --monospace-font-weight-bold: 500;
   /* base */
   --body-background: var(--color-white);
@@ -122,7 +122,7 @@
   --footer-font-color: var(--color-gray-70);
   --footer-link-font-color: var(--color-jet-80);
   /* dimensions and positioning */
-  --navbar-height: calc(63 / var(--rem-base) * 1rem);
+  --navbar-height: calc(44 / var(--rem-base) * 1rem);
   --toolbar-height: calc(45 / var(--rem-base) * 1rem);
   --drawer-height: var(--toolbar-height);
   --body-top: var(--navbar-height);
